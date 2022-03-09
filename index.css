@@ -1,0 +1,35 @@
+:root{
+	--body-bg: rgb(204, 204, 204);
+	--white: #ffffff;
+	--darkwhite: #ccc;
+	--black: #000000;
+	--dark: #615c60;
+	--themeColor: #22b8d1;
+	--pageShadow: 0 0 0.5cm rgba(0, 0, 0, 0.5);
+}
+/* font included */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+body{
+	background-color: var(--body-bg);
+}
+.page{
+	background: var(--white);
+	display: block;
+	margin: 0 auto;
+	position: relative;
+	box-shadow: var(--pageShadow);
+}
+.page[size="A4"]{
+	width: 23cm;
+	height: 30.7cm;
+	overflow: hidden;
+}
+.bb {
+	border-bottom: 3px solid var(--darkwhite);
+}
+.square{
+	height: 300px;
+	width: 200px;
+	background-color: #add8e6;
+	float: right;
+}
